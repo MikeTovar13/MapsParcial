@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ui.LocationFragment">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitud" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:id="@+id/value1"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:textSize="28sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/latitudeTextView"
+            android:text="0.0" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitud" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:id="@+id/value2"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:textSize="28sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/longitudeTextView"
+            android:text="0.0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir al lugar"
+            android:id="@+id/buttonCoordenadas"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</layout>

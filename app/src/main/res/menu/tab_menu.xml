@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/locationFragment"
+        android:title="GPS"
+        android:icon="@android:drawable/ic_dialog_alert"/>
+
+    <item
+        android:id="@+id/mapFragment"
+        android:title="Mapa"
+        android:icon="@android:drawable/ic_dialog_map"/>
+</menu>
